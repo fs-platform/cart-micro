@@ -1,4 +1,4 @@
-module cart
+module github.com/fs-platform/cart-micro-service
 
 go 1.16
 
