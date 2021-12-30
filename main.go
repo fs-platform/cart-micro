@@ -1,9 +1,9 @@
 package main
 
 import (
-	"cart/domain/repository"
-	service2 "cart/domain/service"
-	"cart/handler"
+	"github.com/fs-platform/cart-micro-service/domain/repository"
+	service2 "github.com/fs-platform/cart-micro-service/domain/service"
+	"github.com/fs-platform/cart-micro-service/handler"
 	common "github.com/fs-platform/go-tool"
 	"github.com/jinzhu/gorm"
 	_ "github.com/jinzhu/gorm/dialects/mysql"
@@ -16,7 +16,7 @@ import (
 	"github.com/opentracing/opentracing-go"
 	"strconv"
 
-	cart "cart/proto/cart"
+	cart "github.com/fs-platform/cart-micro-service/proto/cart"
 )
 
 func main() {

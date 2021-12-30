@@ -1,8 +1,8 @@
 package service
 
 import (
-	"cart/domain/model"
-	"cart/domain/repository"
+	"github.com/fs-platform/cart-micro-service/domain/model"
+	"github.com/fs-platform/cart-micro-service/domain/repository"
 )
 
 type ICartDataService interface {

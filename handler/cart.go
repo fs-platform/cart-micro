@@ -1,10 +1,10 @@
 package handler
 
 import (
-	"cart/domain/model"
-	"cart/domain/service"
-	cart "cart/proto/cart"
 	"context"
+	"github.com/fs-platform/cart-micro-service/domain/model"
+	"github.com/fs-platform/cart-micro-service/domain/service"
+	cart "github.com/fs-platform/cart-micro-service/proto/cart"
 	common "github.com/fs-platform/go-tool"
 	log "github.com/micro/go-micro/v2/logger"
 )

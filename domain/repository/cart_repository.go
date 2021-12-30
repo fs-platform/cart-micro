@@ -1,8 +1,8 @@
 package repository
 
 import (
-	"cart/domain/model"
 	"errors"
+	"github.com/fs-platform/cart-micro-service/domain/model"
 	"github.com/jinzhu/gorm"
 )
 
