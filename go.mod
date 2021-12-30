@@ -1,6 +1,6 @@
 module github.com/fs-platform/cart-micro-service
 
-go 1.16
+go 1.13
 
 require (
 	github.com/fs-platform/go-tool v0.0.0-20211229074141-eaca2277abc3
